@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="InventoryPA.jnlp">
+  <information>
+    <title>InventoryPA</title>
+    <vendor>henry</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="InventoryPA.jar" size="29064" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="inventorypa.InventoryPAGregHenry"  name="InventoryPA" />
+  <update check="always"/>
+</jnlp>
